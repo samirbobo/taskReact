@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  transition: 0.1s linear;
+}
+
+.link:hover,
+.link.active {
+  color: white;
+  box-shadow: 0px 2px 0px 0px #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
