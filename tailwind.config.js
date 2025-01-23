@@ -23,9 +23,9 @@ export default {
         inter: ["Inter", "serif"],
       },
       backgroundImage: {
-        "custom-footer-bg": "url('./src/assets/footer-img.png')",
-        "custom-grid-bg": "url('./src/assets/grid.png')",
-        "custom-map-bg": "url('./src/assets/map.png')",
+        "custom-footer-bg": "url('./assets/footer-img.png')",
+        "custom-grid-bg": "url('./assets/grid.png')",
+        "custom-map-bg": "url('./assets/map.png')",
       },
     },
   },
